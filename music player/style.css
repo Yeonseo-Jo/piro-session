@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  background: none;
+}
+
+.hidden {
+  display: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  background-color: rgb(255, 251, 197);
+  width: 500px;
+  padding: 2em 0;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.player {
+  color: white;
+}
+
+.progress-bar {
+  background: rgb(229, 199, 65);
+  margin: 2em 0 1em 0;
+}
+
+.progress {
+  height: 3px;
+  background: rgb(229, 199, 65);
+  width: 0;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5em;
+}
+
+.title {
+  text-align: center;
+  margin: 1em 0 0.5em 0;
+  font-size: 1.5em;
+}
+
+.artist {
+  display: block;
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btns button {
+  border: none;
+}
+
+.btns button:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.btns i {
+  font-size: 1.5rem;
+  color: rgb(229, 199, 65);
+}
